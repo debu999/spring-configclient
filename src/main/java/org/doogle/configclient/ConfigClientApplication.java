@@ -6,11 +6,11 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class SpringConfigClientApplication {
+public class ConfigClientApplication {
 
 
   public static void main(String[] args) {
-    SpringApplication.run(SpringConfigClientApplication.class, args);
+    SpringApplication.run(ConfigClientApplication.class, args);
   }
 
 }
